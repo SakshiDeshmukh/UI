@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Registration | Bootstrap |JQuery
+        </title>
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+        
+       <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>          
+
+        <script type="text/javascript" src="RegistrationUsingBootstrapjquery.js"></script>
+    </head>
+    <body style="background:linear-gradient(grey,darkgrey)">
+        <center>
+        <div class="container">
+        <div class="page-header" style="text-align:center">
+        <h1>Registration Form</h1>
+        </div>
+        <div class="col-sm-2"></div>
+        <div class="col-md-1"></div>
+        <form id="register-form" method="POST">
+           
+                <div class="card" style="width: 30rem;">
+                        <div class="card-header">
+                          Registration Form
+                        </div>
+                        <div class="card-body">
+            
+           <div class="form-group" style="text-align:left">
+                <img class="card-img-right" src="user.jpg" width="50px" height="50px" alt="Card image cap">
+             Name::<input type="text"  name="name" class='form-control' placeholder="Your name..."/><br>
+             Email::<input type="email" name="email"  class='form-control' placeholder="Your email.."/><br>
+             Phone:<input type="number" name="phone"  class='form-control' placeholder="Your phone number"/><br>
+             DoB::<input type="date" date="date"  class='form-control' />
+             Age::<input type="range" age="age"   class='form-control'placeholder="Your age"/>
+             Address::<input type="textarea" name="address"  class='form-control' id="address" placeholder="Your address"/>
+             <label for='gender'>Gender::</label>
+             <select class='form-control'>
+                 <option value='-1'>-select-</option>
+                 <option value='0'>Male</option>
+                 <option value='1'>Female</option>
+             </select>
+             Password::<input type="password" id='password' class="form-control" name="password" placeholder="your password..."  />
+             <input type="button" class='btn btn-primary' value='Save'/>
+             <input type="submit" name="Register"  class="btn btn-primary"  id='register' value="Register"/>
+            </div>
+        </div>
+    </div>
+
+            </form>
+           
+        </div>
+         <div class="col-sm-2"></div>
+      </div>
+    </center>
+    </body>
+</html>

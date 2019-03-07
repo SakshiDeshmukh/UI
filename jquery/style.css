@@ -1,0 +1,68 @@
+body{
+    background-color: #dfdfe21c;
+}
+#login-form-content{
+    background-color: rgb(245,245,220,0.3);
+    width: 340px;
+    border: 1px solid rgb(169,169,211);
+    border-radius: 2px;
+    padding: 5 5 5 5px;
+    margin: auto;
+    margin-top:100px;
+}
+fieldset{
+    border-color: #CCCCCC;
+    border-radius: 5px;
+}
+legend{
+    color: #CCCCCC;
+}
+input{
+    display: block;
+}
+.input{
+    border: 1px solid #584848;
+    border-radius: 8px;
+    margin: 8 0 10 12px;
+    height: 5em;
+    width: 25em;
+    -webkit-box-shadow: inset -22px -19px 61px -5px rgba(158, 158, 160, 0.51);
+    -moz-box-shadow: inset -22px -19px 61px -5px rgba(158, 158, 160, 0.51);
+    box-shadow: inset -22px -19px 61px -5px rgba(158, 158, 160, 0.51);
+}
+input[type=submit]{
+    width: 5.5em;
+    cursor: pointer;
+    background: url('button.png');
+    color: #8a6b6b;
+    border-radius: 10px;
+    margin-left: 11px;
+    height: 30px;
+    font-size: 1em;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+input[type=submit]:hover{
+    background-color: ghostwhite;
+}
+.btn-submit{
+    padding-left: 188px;
+}
+.input-error{
+    border-color: red;
+}
+#error-message{
+    color: red;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-style: italic;
+    color: lightgrey;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-style: italic;
+    color: lightgrey;
+}

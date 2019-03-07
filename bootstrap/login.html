@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Login
+        </title>
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+        
+       <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>          
+    <style>
+        #ulid{
+            background-color:rgb(245, 80, 80);
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+        }
+    </style>       
+        
+    </head>
+    <body>
+            <div class="container">
+                   <ul class="nav nav-tabs" id="ulid">
+                    <li class="nav-item"><a data-toggle="collapse" class="nav-link" href="#login">Login</a></li>
+                    <li class="nav-item"><a data-toggle="collapse" class="nav-link" href="#content">Content</a></li>
+                    <li class="nav-item"><input type="search" class="form-control" placeholder="search..."></li>
+                    <button type="submit"> <i class="fa fa-search"></i></button>
+                </ul>
+                  
+                  <div class="tab-content">
+
+                  
+                    
+                   <div id="login"  class="collapse">
+                
+                    <form>
+                            <div class="page-header" style="text-align:center">
+                            <h1>Login Form</h1>
+                            </div>
+                                    <div class="form-group">
+                            
+                                 Name::<input type="text"  name="name" class='form-control' placeholder="Your name..."/><br>
+                                 Password::<input type="password" name="password" class='form-control' placeholder="Your password.."/>
+                                 <button class="btn btn-outline-primary btn-lg">login</button>
+                    </div>
+                    </form>
+                    
+              </div>
+            
+                
+              <div id="content" class="collapse">
+                    <div class="page-header" style="text-align:center">
+                      <h1>Content</h1>
+                    </div>
+                      <h3><i>Summary::</i></h3>
+                      <p><i>The emergence and growth of blogs in the late 1990s coincided with the advent of web publishing tools that facilitated the posting of content by non-technical users who did not have much experience with HTML or computer programming. Previously, a knowledge of such technologies as HTML and File Transfer Protocol had been required to publish content on the Web, and early Web users therefore tended to be hackers and computer enthusiasts. In the 2010s, the majority are interactive Web 2.0 websites, allowing visitors to leave online comments, and it is this interactivity that distinguishes them from other static websites.[2] In that sense, blogging can be seen as a form of social networking service. Indeed, bloggers do not only produce content to post on their blogs, but also often build social relations with their readers and other bloggers.[3] However, there are high-readership blogs which do not allow comments.</i></p>
+                    </div>
+                  </div>
+
+                </div> 
+        </div>
+        </body>
+        </html>

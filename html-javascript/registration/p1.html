@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>
+    pratice sample
+</title>
+<style>
+    table,td{
+        
+        margin:1px;
+        width: 700px;
+        height: 50px;
+        padding: 5 5 5 5px;
+
+    }
+    tr{
+        font-size: 30px;
+    
+    }
+    body{
+        background :linear-gradient(white,blue);
+    }
+    input[type=text],[type=number],[type=email],[type="date"],[type="textarea"]{
+    
+    width: 100 px;
+    height: 50 px;
+    border: 1px solid pink;
+    border-radius: 3px;
+    background-color:rgb(6,130, 190,0.15);
+    box-shadow: inset 0px 0px 20px 10p rgb(0,0,0,0.20);
+    }
+    input[type=submit]{
+        width: 100 px;
+        height: 50 px;
+    }
+</style>
+<script type="text/javascript" src="p1.js"></script>
+</head>
+<body>
+
+    <center>
+<form method="POST">
+       
+    <table style="border:5px solid black" >
+            
+        <h1 style="color:rgb(4, 4, 80)"><b>Registration Form</b></h1>
+<tr><td> First Name ::</td><td ><input type="text" name="firstname" id='name'/></td></tr>
+<tr><td>Last Name ::</td><td><input type="text" name="lastname" id='n2'/></td></tr>
+
+<tr><td >Email id ::</td><td><input type="email" name="email" id='n3' /></td></tr>
+<tr><td >Phone ::</td><td><input type="number" name="phone" id='n4'/></td></tr>
+<tr><td >Age ::</td><td ><input type="number" name="age" id='n5'/></td></tr>
+<tr><td > DOB ::</td><td ><input type="date" name="dateofbirth" id='n6'/></td></tr>
+<tr><td >Address ::</td><td><input type="textarea" id='n7'></td>
+</tr>
+<tr><td colspan="2" align="center">
+    <input type="button" id='btn' name="Register" value="Register" onclick="_submit()" />
+</td> 
+   <td><input type="submit" name="Save" value="Save and Continue" /></td> </tr>
+</table>
+    </form>
+</center>
+</body>
+</html>

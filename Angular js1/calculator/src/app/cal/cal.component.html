@@ -1,0 +1,23 @@
+
+  <fieldset>
+    <legend>
+      Calculator
+    </legend>
+    <div>
+        <h2>Calculator</h2>
+        <div class='table-form' class="calculate">
+            <input #number1 type="number" placeholder="Enter number1"><br/>
+            <input #number2 type="number" placeholder="Enter number2">
+            <select #selid (change)="getOperation()">
+                <option *ngFor="let opr of operations">{{opr}}</option>
+              </select><br/>
+            <button (click)="calResult(number1.value,number2.value,selid.value)">Calculate</button>
+            <button (click)="resetMethod(number1.value,number2.value)">Reset</button>
+            
+          </div>
+          <div>
+            {{result}}
+          </div>
+  </fieldset>
+
+
